@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Orbitron:wght@900&family=Poppins:wght@400;600&family=Teko:wght@500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Orbitron', sans-serif;
+    margin: 0 ;
+    min-height: 100vh;
+    background-color: #253238;
+    
+}
+.container{
+    margin: 0;
+
+}
+
+/* website container */
+.website{
+    position: relative;
+    width: 100%;
+    min-height: 46rem;
+    background-image: url(./img/photo-1606636661404-cbd176ddb129.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0   ;
+    padding: 1px;
+    text-align: center;
+}
+.website .cover p{
+    position: absolute;
+    color: #366262;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-weight: bold;
+        text-shadow: 1px 1px 1px #f6f3f3;
+}
+p span{
+    color: #366262;
+    text-shadow: 1px 1px 1px #f6f3f3;
+}
+
+
+
+/* project container  */
+
+
+.project {
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  /* react app  */
+  .react-app {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .app {
+    background-color: #dcdde1;
+    border-radius: 6px 6px 13px 13px;
+    box-shadow: 1px 1px 14px 2px #ec9aa8;
+  }
+  .project .react h1{
+    font-weight: bold; 
+    color: white;
+    font-size: 3rem;
+    padding: 3rem 0rem;
+  }
+  
+  .app img {
+    width: 100%;
+    height: 14rem;
+    border-radius: 4px;
+    padding: .5rem;
+  }
+  .app img:hover{
+    scale: 1.1;
+    border: none;
+    border-radius: 37px;
+  }
+  
+  .app h3 {
+    font-size: 27px;
+    margin: 10px 0;
+  }
+  
+  .app button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 0px 0px 13px 13px;
+    padding: 16px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .app button:hover {
+    background-color: blue !important;
+  }
+  
+  .app a {
+    color: #fff;
+    text-decoration: none;
+  }
+  @media (max-width : 700px) {
+    .react-app {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .js-app {
+        grid-template-columns: repeat(1, 1fr) !important;
+      }
+      .app img{
+        height: 7rem;
+      }
+  }
+
+  /* js app */
+  .js-app {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+  }
+  
+  .project .js h1{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    padding: 3rem 0rem;
+
+  }
+  
+
+  .app button:hover {
+    background-color: #f11606;
+  }
+  
+  .app a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  /* socail */
+  .social{
+    text-align: center;
+    padding: 3rem;
+}
+  .social a{
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+  }
+  .social a:hover{
+    color: blue;
+    font-size: 3rem;
+  }
+  
